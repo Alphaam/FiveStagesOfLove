@@ -1,0 +1,57 @@
+/*body{
+
+  font-family: Verdana, sans-serif;
+  background: url(bg.jpeg);
+   background-repeat: repeat;
+  background-size: 15% 25%;
+  background-attachment: fixed;*/
+
+/*  z-index: 1;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;*/
+
+/*}*/
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+h2{
+	font-size: 65px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.about{
+
+	background-color: rgba(255, 255, 255, 0.0); 	 
+	text-align: center; 
+	margin-bottom: 10%;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-width: 510px;
+	padding: 5% 10% 9% 10%;
+	z-index: 2;
+	color: white;
+
+	  position: fixed;
+
+}
+
+/*control behaviour of page when screen is minimized*/
+.minwidth{
+position: relative;
+	background-color: rgba(255, 255, 255, 0.9);
+	min-width: 400px;
+	padding:1px 23%;
+
+}
